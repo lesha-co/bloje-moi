@@ -3,10 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
+
+
   <body>
-    <h1>Привет</h1>
-    <a href="page2.html">вторая страница</a>
+    <header>
+      <div class="header content">
+        <a href="#" class="logo">Лешенька</a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Блог</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="tags.html">Теги</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="page2.html">Учебник</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="cv.html">Резюме</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="content">
+        <div class="wrap-main">
+          <div class="welcome">
+          <p class="welcome__title">Привет, я Леша!</p>
+          <p class="welcome__text">Lorem ipsum dolor sit amet consectetur. Lacus porta leo egestas augue sed. Tincidunt pulvinar leo praesent pulvinar ac sed. Integer scelerisque tortor amet facilisis dis at.</p>
+        </div>
+  
+        <div class="wrap-article">
+          <div class="article">
+            <span class="article__data">15.12.2021</span>
+            <div class="article__text-tags">
+              <div class="article__text">
+                <div class="article__title">Как сделать так, чтобы все было и ничего за это не было</div>
+                <div class="article__desc">Советы для тех, кто вообще ничего не понимает в жизни, но хочет, чтобы все было норм.</div>
+              </div>
+              <ul class="article__tags">
+                <li class="article__item"><a href="#">#vupsen</a></li>
+                <li class="article__item"><a href="#">#vupsen</a></li>
+                <li class="article__item"><a href="#">#vupsen</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="article">
+            <span class="article__data">15.12.2021</span>
+            <div class="article__text-tags">
+              <div class="article__text">
+                <div class="article__title">Как сделать так, чтобы все было и ничего за это не было</div>
+                <div class="article__desc">Советы для тех, кто вообще ничего не понимает в жизни, но хочет, чтобы все было норм.</div>
+              </div>
+              <ul class="article__tags">
+                <li class="article__item"><a href="#">#vupsen</a></li>
+                <li class="article__item"><a href="#">#vupsen</a></li>
+                <li class="article__item"><a href="#">#vupsen</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="article">
+            <span class="article__data">15.12.2021</span>
+            <div class="article__text-tags">
+              <div class="article__text">
+                <div class="article__title">Как сделать так, чтобы все было и ничего за это не было</div>
+                <div class="article__desc">Советы для тех, кто вообще ничего не понимает в жизни, но хочет, чтобы все было норм.</div>
+              </div>
+              <ul class="article__tags">
+                <li class="article__tags-item"><a href="#">#vupsen</a></li>
+                <li class="article__tags-item"><a href="#">#vupsen</a></li>
+                <li class="article__tags-item"><a href="#">#vupsen</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="wrap-more-posts">
+          <hr>
+          <div class="more-posts">
+            <span class="more-posts__text">Больше постов</span>
+  
+            <svg class="more-posts__img" width="35" height="24" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M34.0607 13.0607C34.6464 12.4749 34.6464 11.5251 34.0607 10.9393L24.5147 1.3934C23.9289 0.807611 22.9792 0.807611 22.3934 1.3934C21.8076 1.97919 21.8076 2.92893 22.3934 3.51472L30.8787 12L22.3934 20.4853C21.8076 21.0711 21.8076 22.0208 22.3934 22.6066C22.9792 23.1924 23.9289 23.1924 24.5147 22.6066L34.0607 13.0607ZM0 13.5H33V10.5H0V13.5Z" fill="black"/>
+            </svg>
+          </div>
+        </div> 
+      </div>
+      
+    </main>
   </body>
 </html>

@@ -217,6 +217,7 @@ aside {
   .wrap-tags {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
   }
 
   .tags-list {
@@ -225,6 +226,7 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 0px;
+    margin-top: 30px;
   }
 
   .tags-item {
